@@ -1,0 +1,96 @@
+*{
+    font-family: Figtree;
+}
+
+body{
+    background-color: hsl(47, 88%, 63%);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+}
+main{
+    max-width: 600px;
+    margin: 10px;
+    display: block;
+
+}
+h1{
+    padding: 10px;
+    text-align: center;
+    
+}
+
+h4{
+    background-color: hsl(47, 88%, 63%);  
+    display: inline;
+    padding-block: 5px;
+    padding-inline: 10px;
+    border-radius: 5px;
+    margin-left: 40px;
+}
+
+a{
+    text-decoration: none;
+}
+a:visited{
+    color: black;
+}
+a:hover{
+    color: hsl(47, 88%, 63%);
+}
+
+.cartao{
+    background-color: white;
+    width: 450px;
+    height: 570px;
+    margin: 10px;
+    border-radius: 20px;
+    border: 1px solid hsl(0, 0%, 7%);
+    box-shadow: 15px 15px hsl(0, 0%, 7%);
+
+    & .imagem-topo{
+        margin: auto;
+        padding: 30px;
+        border-radius: 40px;
+        width: 100%;
+    }
+
+    & .data-publi{
+        padding-top: 20px;
+        padding-left: 40px;
+        text-align: justify;
+    }
+
+    & .descricao{
+        padding: 15px;
+        padding-left: 35px;
+        color: hsl(0, 0%, 42%);
+        text-align: justify;
+        
+    }
+    
+    & .nome-avatar{
+        padding-left: 30px;
+        font-weight: bold;
+
+    }
+    & .imagem-avatar{
+        padding-left: 20px;
+        padding-top: 20px;
+        padding-right: 10px;
+        width: 70px;
+    }   
+    & .div-avatar{
+        display: flex;
+    }
+
+    & .nome-autor{
+        padding-top: 30px;
+    }
+        
+    
+
+}
+
